@@ -1,5 +1,5 @@
 {
-  "name": "webpack-intro",
+  "name": "derek-baylor-sorting-hat-webpack",
   "version": "1.0.0",
   "description": "",
   "main": "src/javascripts/main.js",
@@ -8,7 +8,7 @@
     "build": "webpack --mode production --module-bind js=babel-loader"
   },
   "keywords": [],
-  "author": "",
+  "author": "Derek Baylor",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "7.11.4",

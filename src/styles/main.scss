@@ -1,9 +1,33 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
-body {
-  background-color: antiquewhite;
-  color: brown;
-  text-align: center;
-  margin-top: 100px;
+
+.jumbotron {
+  background-color: lightgray;
+  padding: 50px;
+}
+
+label {
+  margin-top: .5rem;
+  margin-bottom: 0;
+}
+.new-student-cards {
+  min-height: 300px;;
+}
+
+.voldermorts-army button {
+  display: none;
+}
+
+.new-student-cards,
+.moldy-voldy-cards {
+  width: 50%;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  margin: 10px;
+  padding-top: 40px;
+}
+
+.sorting-form {
+  margin-top: 50px;
 }
