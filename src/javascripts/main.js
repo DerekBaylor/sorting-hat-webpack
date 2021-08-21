@@ -64,6 +64,7 @@ const cardCreator = (divId, array) => {
 
 const sortStudentsByHouse = (array) => {
   array.sort((a, b) => (a.house > b.house ? 1 : -1));
+  return array;
 };
 
 const addStudentToArray = (e) => {
